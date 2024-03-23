@@ -1,0 +1,92 @@
+<style>
+    .container {
+        display: grid;
+        grid-template-rows: 0.5fr 2fr 0.5fr;
+        height: 400px;
+        width: 400px;
+        gap: 5px;
+    }
+
+    .header {
+        background-color: aquamarine;
+        display: grid;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .middle {
+        display: grid;
+        grid-template-columns: 2fr 5fr;
+        gap: 5px;
+    }
+
+    .A {
+        background-color: rgb(69, 168, 69);
+        display: grid;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .B {
+        background-color: orange;
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        gap: 5px;
+    }
+
+    .footer {
+        background-color: aquamarine;
+        display: grid;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .img2__container {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        background-color: aqua;
+        justify-content: center;
+        align-items: center;
+        
+        
+    }
+
+    .img2 {
+        display: grid;
+        width: 70px;
+        height: 70px;
+        justify-content: center;
+        align-items: center;
+        
+        
+    }
+    .img1__container{
+        display: grid;
+        background-color: black;
+    }
+</style>
+
+
+
+
+<div class="container">
+    <div class="header">Header</div>
+    <div class="middle">
+        <div class="A">Aside</div>
+        <div class="B">
+            <div class="img1__container">
+                <div>
+                    Artical
+                </div>
+            </div>
+            <div class="img2__container">
+                <div class="img2">Image</div>
+                <div class="img2">Image</div>
+                <div class="img2">Image</div>
+            </div>
+
+        </div>
+    </div>
+    <div class="footer">Footer</div>
+</div>
